@@ -1,0 +1,14 @@
+The GUI will first use the messaging app s.t. they can:
+    add day_times to their week calander
+        /addDay day time1 time2 ...         -> confirmation message | error message
+    remove day_times to their week calander
+        /removeDay day time1 time2 ...      -> confirmation message | error message
+    remove a particular date and time
+        /removeDate date time1 time2 ...    -> confirmation message | error message
+    get master calendar
+        /Calendar                           -> the master calendar as na image
+    get their calendar
+        /myCalendar                         -> their calendar
+
+
+FUTURE IMPLEMENTATIONS LATER

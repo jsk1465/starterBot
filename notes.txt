@@ -1,0 +1,126 @@
+An introduction to Slack apps: https://api.slack.com/start/overview
+    Slack app's & human's can:
+        Send messages to conversations with
+            Web APIs and webhooks [url to learn more in the url link0]
+        Read messages, conversations and other data with
+            Web, RTM, and Events APIs
+        Create, archive and manage conversations using
+            Conversation-specific Web APIs
+        Act on mentions or recieve notifications
+            Events APIs
+    Slack app's can but human's cannot
+        invoke modals to collect info
+        provide space for completing workflow
+        publish interactive components to enable action and reaction
+        Create and update a Home tab ???
+        Empower users to invoke workflows at will using slash commands and custom message actions
+        automate the managementt of workspaces using various enterprise-focused APIs
+
+    Slack apps can exist on:
+        App Home
+            Can change the Home Tabs on the App Home [basically its the thing you hit on the far left saying the apps name]
+        Home Tabs
+            Enriched with intricate layouts and deep interactivity and updates whenever the app wants
+        Modals
+            app-triggered popups ideal for requesting and collecting data from users
+            or temporarily displaying dynamic and interactive information
+        Messages
+            complete work flows on slack conversations for a conversations interface
+        for more goto Surfces to learn more about them
+    
+    Create the app
+        at https://api.slack.com/apps
+    Manage Apps
+        at https://api.slack.com/apps
+    
+    Collaborating on dev of apps
+        Add App collaborator btn
+        THere is are also app collaborators who can do stuff but cannot delete and 
+
+    Building and distributing apps
+        If the user authorizes it then the app can see its data
+        oAuth allows multiple poeple to share at once
+
+
+
+Planning: https://api.slack.com/start/planning 
+    Outline user cases
+        Go to triggers
+    use stories
+        Imagine user-app communication
+            Go to Communicating
+            Go to Voice/Tone
+    Understand your audience
+        Go to interaction guildlines
+    Planning Interactivity: https://api.slack.com/start/planning/triggers
+
+    Choosing APIs
+        RTM
+            Socket Always on
+        Events
+            slack -> machine
+            turns machine one ;)
+        Web api
+            machine -> slack
+
+Designing: https://api.slack.com/start/designing
+    TODO
+
+Surfaces: https://api.slack.com/surfaces
+    Home Tabs
+        tabs -> 
+            This is in beta [not ideal for this]
+    Modals
+        modals -> 
+            how to create a modal: https://api.slack.com/tools/block-kit-builder?mode=modal&view=%7B%22type%22%3A%22modal%22%2C%22title%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22My%20App%22%2C%22emoji%22%3Atrue%7D%2C%22submit%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Submit%22%2C%22emoji%22%3Atrue%7D%2C%22close%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Cancel%22%2C%22emoji%22%3Atrue%7D%2C%22blocks%22%3A%5B%7B%22type%22%3A%22input%22%2C%22element%22%3A%7B%22type%22%3A%22plain_text_input%22%2C%22action_id%22%3A%22sl_input%22%2C%22placeholder%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Placeholder%20text%20for%20single-line%20input%22%7D%7D%2C%22label%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Label%22%7D%2C%22hint%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Hint%20text%22%7D%7D%2C%7B%22type%22%3A%22input%22%2C%22element%22%3A%7B%22type%22%3A%22plain_text_input%22%2C%22action_id%22%3A%22ml_input%22%2C%22multiline%22%3Atrue%2C%22placeholder%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Placeholder%20text%20for%20multi-line%20input%22%7D%7D%2C%22label%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Label%22%7D%2C%22hint%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Hint%20text%22%7D%7D%2C%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22Pick%20a%20date%20for%20the%20deadline.%22%7D%2C%22accessory%22%3A%7B%22type%22%3A%22datepicker%22%2C%22initial_date%22%3A%221990-04-28%22%2C%22placeholder%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Select%20a%20date%22%2C%22emoji%22%3Atrue%7D%7D%7D%2C%7B%22type%22%3A%22input%22%2C%22element%22%3A%7B%22type%22%3A%22datepicker%22%2C%22initial_date%22%3A%222019-04-28%22%2C%22placeholder%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Select%20a%20date%22%2C%22emoji%22%3Atrue%7D%7D%2C%22label%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Label%22%2C%22emoji%22%3Atrue%7D%7D%5D%7D
+            Can I create a modal that can select multiple dates with a calander view possibly
+            But this will not include time 
+Building: https://api.slack.com/start/building
+    TODO
+
+Distrubting: https://api.slack.com/start/distributing
+    TODO ??? kinda
+
+interactivity: https://api.slack.com/interactivity 
+    TODO
+
+triggers: https://api.slack.com/start/planning/triggers
+    TODO
+
+Communicating: https://api.slack.com/start/planning/communicating
+    TODO
+
+Voice/Tone: https://api.slack.com/start/designing/voice-tone
+    TODO
+
+APIs https://api.slack.com/start/planning/choosing:
+    TODO!!!!
+
+Technologies https://api.slack.com/tools:
+    Python:
+        Events: https://github.com/slackapi/python-slack-events-api
+            pip install slackeventsapi
+            APIs:
+                events: https://api.slack.com/events-api
+        Slack-Web/RTM: https://github.com/SlackAPI/python-slackclient
+            pip install slackclient
+            APIs
+                web: https://api.slack.com/web
+                RTM: https://api.slack.com/rtm
+
+Block Kit: https://api.slack.com/block-kit
+    UI framework for slack apps for messages and other surfaces
+
+
+Events Api: https://api.slack.com/events-api
+    scenario:
+        Bot is listening for with specific trigger phrases
+            1)  member sends messages ina  channel the bot belongs too
+            2)  Server recieves a message.channels event 
+            3)  server sends a HTTP 200 OK
+            4)  server decides to make a decission based on the message
+            5)  server sends a chat.postMessage from web API to post that message to whatever channel
+
+
+Web servers available for python: https://wiki.python.org/moin/WebServers
+    Why not flask?
